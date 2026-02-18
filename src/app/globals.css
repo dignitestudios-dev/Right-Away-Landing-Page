@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+.nav-link {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #22b573;
+}
+.btn-primary {
+  background: #63eaad;
+  color: #014837;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-outline {
+  background: transparent;
+  color: #014837;
+  border: 1.5px solid #014837;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s;
+}
