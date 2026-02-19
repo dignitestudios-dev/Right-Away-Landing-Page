@@ -10,12 +10,13 @@ export default function CTABanner() {
           <Logo white />
 
           <h2 className="font-['Outfit'] text-[36px] sm:text-[46px] lg:text-[60px] font-bold text-white leading-[1.25] mt-6 mb-4">
-            Fringilla tellus tortor ipsum enim sagittis a.
+            Built for Builders. Powered by Local Networks.
           </h2>
 
           <p className="text-[15px] sm:text-[17px] text-white/60 leading-[1.5] mb-8 max-w-full lg:max-w-[560px]">
-            Fermentum neque facilisis commodo id porttitor lobortis ornare.
-            Mauris turpis diam massa felis at lorem. Posuere nunc interdum.
+            Rightaway is more than a delivery app, it’s a smarter way to connect
+            construction demand with trusted local supply. Faster sourcing,
+            transparent tracking, and seamless coordination all in one platform.
           </p>
 
           {/* CTA Buttons */}

@@ -26,17 +26,19 @@ export default function HeroSection() {
 
           {/* Headline */}
           <div className="flex flex-col gap-1 sm:gap-2 md:gap-3">
-            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight sm:leading-snug md:leading-[1.1] uppercase">
-              <span className="text-[#22B573]">Rightaway:</span> Your
-              Construction Supply Solution
+            <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-4xl font-bold leading-tight sm:leading-snug md:leading-[1.1] uppercase">
+              <span className="text-[#22B573]">Rightaway : </span>
+              Construction Materials. Delivered Without Delay.
             </h1>
             <p className="text-[#181818] font-normal text-sm sm:text-base md:text-lg lg:text-[20px]">
-              Order construction materials from local vendors with Rightaway
+              Order construction materials from trusted local suppliers and get
+              them delivered straight to your site. Fast, reliable, and
+              hassle-free.
             </p>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-row gap-2.5 flex-wrap mt-3 sm:mt-5">
+          <div className="flex flex-row gap-2.5 flex-wrap ">
             {/* App Store Button */}
             <button className="bg-[#63EAAD] cursor-pointer text-[#014837] rounded-xl px-4 sm:px-5 py-2 sm:py-3 font-bold text-[12px] sm:text-[15px] flex items-center gap-2 hover:opacity-90 transition">
               <img

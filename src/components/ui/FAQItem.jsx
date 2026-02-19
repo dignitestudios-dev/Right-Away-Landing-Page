@@ -19,7 +19,7 @@ const FAQItem = ({ question, isOpen, onClick }) => (
         alignItems: "center",
       }}
     >
-      <span style={{ fontSize: 18, fontWeight: 600, color: "#000" }}>
+      <span className="capitalize" style={{ fontSize: 18, fontWeight: 600, color: "#000" }}>
         {question.q}
       </span>
       <span

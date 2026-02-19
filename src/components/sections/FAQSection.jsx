@@ -6,24 +6,24 @@ export default function FAQSection() {
   const [openFaq, setOpenFaq] = useState(1);
   const faqs = [
     {
-      q: "Id sit non lectus",
-      a: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      q: "How does Right Away work?",
+      a: "Rightaway connects buyers with local construction suppliers and assigns nearby riders for delivery. Users can browse materials, place orders, track deliveries in real time, and communicate directly within the app.",
     },
     {
-      q: "Magna velit morbi vitae facilisi ut. Enim sed.",
-      a: "Proin lacus consequat auctor ligula pulvinar eu consequat. Fermentum senectus arcu sit sem vel enim eros in laoreet. Ut laoreet sit neque lacus tortor.",
+      q: "Are suppliers verified?",
+      a: "Yes. All suppliers go through a verification and approval process before being able to list products on the platform.",
     },
     {
-      q: "Metus felis eu etiam fringilla cras in",
-      a: "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.",
+      q: "How are deliveries tracked?",
+      a: "Deliveries are tracked using integrated GPS and Google Maps technology, allowing users to see real-time updates and estimated arrival times.",
     },
     {
-      q: "Sem sit amet est metus risus",
-      a: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.",
+      q: "What payment methods are supported?",
+      a: "Users can pay through supported digital payment methods within the app. Secure transactions ensure safe and seamless checkout.",
     },
     {
-      q: "Elit sed neque tellus semper",
-      a: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      q: "Can riders choose when they work?",
+      a: "Yes. Riders can toggle their availability on or off and will only receive delivery requests when marked as available.",
     },
   ];
 

@@ -6,8 +6,9 @@ const features = [
   {
     bg: "#F5F5F5",
     textColor: "#014837",
-    title: "Turpis vitae quis nunc pulvinar vel adipiscing.",
-    desc: "Pellentesque auctor diam ullamcorper eget mi euismod eget est. Viverra mauris netus cursus erat. Viverra sapien turpis blandit nullam feugiat morbi aliquam felis.",
+    title: "For Contractors & Buyers",
+    subTitle: "Everything Your Project Needs In One App",
+    desc: "Browse materials from verified local suppliers, compare pricing, place orders, and track deliveries in real time. Save multiple delivery addresses, chat directly with suppliers and riders, and reorder frequently used materials with a single tap. Rightaway helps you stay on schedule and in control.",
     imgSrc: "/future-products.png",
     imgClass:
       "lg:absolute lg:w-[250px] lg:h-[200px] lg:w-[450px] lg:h-[350px] lg:top-[-64px] lg:right-10 lg:object-contain pointer-events-none",
@@ -15,8 +16,9 @@ const features = [
   {
     bg: "#63EAAD",
     textColor: "#014837",
-    title: "Turpis vitae quis nunc pulvinar vel adipiscing.",
-    desc: "Pellentesque auctor diam ullamcorper eget mi euismod eget est. Viverra mauris netus cursus erat. Viverra sapien turpis blandit nullam feugiat morbi aliquam felis.",
+    title: "For Riders",
+    subTitle: "Flexible Deliveries. Reliable Earnings.",
+    desc: "Receive delivery requests based on your availability and proximity. Navigate efficiently with built-in GPS and real-time route optimization. Manage your schedule, track your earnings, request withdrawals, and communicate directly with suppliers and customers all from one streamlined interface.",
     imgSrc: "/future-hand.png",
     imgClass:
       "lg:absolute lg:w-[300px] lg:h-[200px] lg:w-[700px] lg:h-[450px] lg:top-[-30px] lg:right-0 lg:object-contain pointer-events-none",
@@ -24,8 +26,9 @@ const features = [
   {
     bg: "#CEFFE9",
     textColor: "#014837",
-    title: "Turpis vitae quis nunc pulvinar vel adipiscing.",
-    desc: "Pellentesque auctor diam ullamcorper eget mi euismod eget est. Viverra mauris netus cursus erat. Viverra sapien turpis blandit nullam feugiat morbi aliquam felis.",
+    title: "For Construction Companies & Suppliers",
+    subTitle: "Expand Your Reach. Increase Your Orders.",
+    desc: "List your products, manage inventory, receive real-time orders, and coordinate deliveries with ease. Access analytics and reporting dashboards, manage payouts through your in-app wallet, define delivery zones, and communicate directly with customers and riders all while growing your local customer base.",
     imgSrc: "/future-app.png",
     imgClass:
       "lg:absolute lg:w-[300px] lg:h-[200px] lg:w-[700px] lg:h-[450px] lg:right-0 lg:top-[0px] lg:object-contain pointer-events-none",
@@ -106,6 +109,12 @@ function FeatureCard({ i, feature, containerRef }) {
           >
             {feature.title}
           </h3>
+          <h3
+            style={{ color: feature.textColor }}
+            className="font-outfit text-[17px] lg:text-[20px] font-medium leading-[1.2] mb-5"
+          >
+            {feature.subTitle}
+          </h3>
           <p
             style={{ color: feature.textColor }}
             className="font-outfit text-[14px] lg:text-[18px] leading-[1.6] opacity-80 m-0"
@@ -134,9 +143,13 @@ export default function FeaturesSection() {
         <h2 className="font-outfit text-[30px] font-black uppercase tracking-[-0.02em] text-[#181818] mb-[10px]">
           Discover What We Offer
         </h2>
-        <p className="font-outfit text-[17px] text-[#181818] opacity-70 m-0">
-          Streamline your construction projects with local suppliers using
-          Rightaway.
+        <p className="font-outfit font-bold text-[15px] text-[#181818] opacity-70 m-0">
+          Powering Construction Through Smart Local Connectivity
+        </p>
+        <p className="font-outfit mt-2 text-[15px] text-[#181818] opacity-70 m-0">
+          Right Away connects contractors, suppliers, and delivery riders on one
+          seamless platform simplifying procurement, tracking, communication,
+          and payments in one place.
         </p>
       </div>
 
