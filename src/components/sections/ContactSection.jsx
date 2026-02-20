@@ -12,7 +12,7 @@ export default function ContactSection() {
   const [agreed, setAgreed] = useState(true);
 
   return (
-    <section className="bg-white px-5 py-12 sm:px-8 md:px-12 lg:px-16 lg:py-20">
+    <section id="contact" className="bg-white px-5 py-12 sm:px-8 md:px-12 lg:px-16 lg:py-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-[60px] items-stretch">
         {/* LEFT SIDE */}
         <div className="w-full lg:w-[300px] xl:w-[320px] shrink-0 flex flex-col gap-8 lg:gap-0 lg:justify-between">
@@ -38,7 +38,7 @@ export default function ContactSection() {
                   Email
                 </div>
                 <div className="text-[13px] sm:text-[14px] text-black/40 break-all">
-                  Office: hello@Rightaway.com
+                  Office: rambos@rightawayapp.com
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function ContactSection() {
                   Phone
                 </div>
                 <div className="text-[13px] sm:text-[14px] text-black/40">
-                  Office: 6232 1151 2211
+                  Office: (201) 206-2451
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function ContactSection() {
 
           {/* Agree + Button */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <label className="flex items-center gap-3 cursor-pointer">
+            {/* <label className="flex items-center gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 defaultChecked={agreed}
@@ -110,7 +110,7 @@ export default function ContactSection() {
               <span className="text-[14px] sm:text-[16px] text-black">
                 I agree to the Terms and Condition
               </span>
-            </label>
+            </label> */}
             <button className="w-full sm:w-auto bg-[#22B573] text-white rounded-full px-6 py-3 font-semibold text-[15px] sm:text-[16px] hover:opacity-90 transition">
               Send now
             </button>

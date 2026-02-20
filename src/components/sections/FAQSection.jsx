@@ -28,7 +28,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="mb-20 bg-white px-5 py-12 sm:px-10 md:px-16 lg:px-20 lg:py-20 flex flex-col lg:flex-row gap-10 lg:gap-16">
+    <section id="faq" className="mb-20 bg-white px-5 py-12 sm:px-10 md:px-16 lg:px-20 lg:py-20 flex flex-col lg:flex-row gap-10 lg:gap-16">
       {/* Left */}
       <div className="w-full lg:w-[520px] lg:flex-shrink-0">
         <div>

@@ -1,7 +1,11 @@
+"use client";
 import React from "react";
 import Logo from "./Logo";
+import { useRouter } from "next/navigation";
 
 export default function Footer() {
+  const router = useRouter();
+
   return (
     <footer className="bg-white px-5 py-8 sm:px-10 md:px-16 lg:px-24 xl:px-40 flex flex-col gap-5">
       {/* Top row: Logo + Social icons */}
@@ -30,10 +34,24 @@ export default function Footer() {
           © Rightaway. All Rights Reserved.
         </p>
         <div className="flex gap-5 sm:gap-6">
-          <span className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors">
+          <span
+            onClick={() =>
+              router.push(
+                "https://right-away-company-panel.vercel.app/privacy-policy",
+              )
+            }
+            className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors"
+          >
             Privacy Policy
           </span>
-          <span className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors">
+          <span
+            onClick={() =>
+              router.push(
+                "https://right-away-company-panel.vercel.app/terms-condition",
+              )
+            }
+            className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors"
+          >
             Terms & condition
           </span>
         </div>

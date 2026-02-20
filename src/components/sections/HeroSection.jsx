@@ -14,7 +14,7 @@ export default function HeroSection() {
         {/* Left content */}
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-full md:max-w-lg lg:max-w-xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-gray-100 rounded-[20px] px-3 py-1 w-max">
+          {/* <div className="inline-flex items-center gap-2 bg-gray-100 rounded-[20px] px-3 py-1 w-max">
             <div className="bg-white rounded-lg h-6 sm:h-7 flex items-center justify-center w-10 font-normal text-[13px] sm:text-[15px]">
               New
             </div>
@@ -22,13 +22,13 @@ export default function HeroSection() {
               App Available to Download
             </span>
             <ArrowRight className="w-3 h-3 shrink-0" />
-          </div>
+          </div> */}
 
           {/* Headline */}
           <div className="flex flex-col gap-1 sm:gap-2 md:gap-3">
             <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-4xl font-bold leading-tight sm:leading-snug md:leading-[1.1] uppercase">
               <span className="text-[#22B573]">Rightaway : </span>
-              Construction Materials. Delivered Without Delay.
+              Construction Materials Delivered Without Delay.
             </h1>
             <p className="text-[#181818] font-normal text-sm sm:text-base md:text-lg lg:text-[20px]">
               Order construction materials from trusted local suppliers and get

@@ -31,7 +31,7 @@ const features = [
     desc: "List your products, manage inventory, receive real-time orders, and coordinate deliveries with ease. Access analytics and reporting dashboards, manage payouts through your in-app wallet, define delivery zones, and communicate directly with customers and riders all while growing your local customer base.",
     imgSrc: "/future-app.png",
     imgClass:
-      "lg:absolute lg:w-[300px] lg:h-[200px] lg:w-[700px] lg:h-[450px] lg:right-0 lg:top-[0px] lg:object-contain pointer-events-none",
+      "lg:absolute lg:w-[300px] lg:h-[200px] lg:w-[500px] lg:h-[450px] lg:right-4 lg:top-[0px] lg:object-contain pointer-events-none",
   },
 ];
 
@@ -117,7 +117,7 @@ function FeatureCard({ i, feature, containerRef }) {
           </h3>
           <p
             style={{ color: feature.textColor }}
-            className="font-outfit text-[14px] lg:text-[18px] leading-[1.6] opacity-80 m-0"
+            className="font-outfit text-[14px] lg:text-[16px] leading-[1.6] opacity-80 m-0"
           >
             {feature.desc}
           </p>
@@ -138,7 +138,7 @@ export default function FeaturesSection() {
   const containerRef = useRef(null);
 
   return (
-    <div className="bg-white">
+    <section id="feature"  className="bg-white">
       <div className="text-center py-[72px] px-[90px] pb-[44px] bg-white">
         <h2 className="font-outfit text-[30px] font-black uppercase tracking-[-0.02em] text-[#181818] mb-[10px]">
           Discover What We Offer
@@ -168,6 +168,6 @@ export default function FeaturesSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
