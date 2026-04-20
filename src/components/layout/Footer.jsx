@@ -37,7 +37,7 @@ export default function Footer() {
           <span
             onClick={() =>
               router.push(
-                "https://right-away-company-panel.vercel.app/privacy-policy",
+                "https://company.rightawayapp.com/privacy-policy",
               )
             }
             className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors"
@@ -47,7 +47,7 @@ export default function Footer() {
           <span
             onClick={() =>
               router.push(
-                "https://right-away-company-panel.vercel.app/terms-condition",
+                "https://company.rightawayapp.com/terms-condition",
               )
             }
             className="text-[14px] sm:text-[16px] text-[#A3A3A3] cursor-pointer font-['Outfit'] hover:text-black transition-colors"
